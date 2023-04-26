@@ -7,6 +7,8 @@ gTTS>=2.3.1 # google text to speech
 pyttsx3>=2.90 # pytsx text to speech
 baidu_aip>=4.16.10 # baidu voice
 # azure-cognitiveservices-speech # azure voice
+numpy<=1.24.2
+langid # language detect
 
 #install plugin
 dulwich
@@ -16,7 +18,7 @@ wechaty>=0.10.7
 wechaty_puppet>=0.4.23
 pysilk_mod>=1.6.0 # needed by send voice
 
-# wechatmp
+# wechatmp wechatcom
 web.py
 wechatpy
 
